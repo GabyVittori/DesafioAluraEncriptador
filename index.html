@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Encriptador - Melhorado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="logo">
+            <img src="img/logAlura.png" alt="logo Alura">
+        </header>
+
+        <div class="encriptar">
+            <textarea name="texto" class="texto"  id="texto" placeholder="Digite seu texto aqui" cols="30" rows="8"></textarea>
+        </div>
+        <div class="informacoes">
+            <p>Somente serão aceitas minúsculas e sem acentos ou caracteres especiais</p>
+        </div>
+        <div class="botoes">
+            <input type="button" class="btn-encriptar" value="Encriptar" onclick="btnEncriptar()">
+            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="btnDesencriptar()">
+        </div>
+        <div>
+            <textarea name="mensagemCriptografada" class="mensagemCriptografada"  id="mensagemCriptografada" cols="30" rows="10"></textarea>
+            <img src="img/imagemMenina.png" alt="" id="menina" >
+            <div class="mensagem-encriptada">
+                <h2 id="titulo-mensagem">Nenhuma mensagem <br> encontrada</h2>
+                <br>
+                <p id="paragrafo">Digite um texto que você deseja <br> criptografar ou descriptografar</p>
+            </div>
+            <input type="button" class="btn-copiar" value="Copiar" onclick="copiarTexto()">
+        </div>
+    
+</div> 
+<footer class="rodape">
+    <h2> Desenvolvido por Gaby Vittori</h2>    
+    <a href="https://www.linkedin.com/in/gabrielavittori-frontend" target="_blank" class="linkedin">LinkedIn</a>
+    
+</footer> 
+</body>
+
+<script src="index.js"></script>
+</html>
